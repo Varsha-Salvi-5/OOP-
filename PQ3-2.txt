@@ -1,0 +1,2 @@
+Question. What is the difference between a friend function and a friend class?
+Answer: A friend function is required when a function needs to access two or more independent classes, internal members. On the other hand, a friend class is needed when a class requires accessing the members of another class. When a multiple member function needs to be a friend of that function, in that case, it is better to use friend class.
