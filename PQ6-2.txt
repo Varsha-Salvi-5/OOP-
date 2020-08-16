@@ -1,0 +1,25 @@
+CHAPTER NO 6 PRACTICE QUESTION 2
+Q.
+Consider the following code snippet:
+
+class Readbook
+{
+public;
+     Readbook ( )               //Function 1
+     { cout<<”Open the Book”<<endl;}
+     void Readchapter ( );      //Function 2
+     { cout<<”Reading Chapter One”<<endl;}
+     ~Readbook ( )              //Function 3
+     { cout<<”Close the Book”<<endl;}
+};
+ 
+ 
+Use the preceding code snippet, to answer the following questions:
+•  In Object Oriented Programming, what is Function 1 referred as and when does it get invoked/called?
+
+Answer: Function 1 is referred as Constructor.
+
+•  In Object Oriented Programming, what is Function 3 referred as and when does it get invoked/called?
+ 
+Answer: Function 2  is referred as Member function
+	Function 3 is referred as Destructor
