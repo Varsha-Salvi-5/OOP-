@@ -1,0 +1,5 @@
+Chapter No 8 Practice Question 2
+
+Q: Q. Can the private members of a class be inherited? If yes, how will they be inherited?
+Answer:
+No, Members of a class that are declared private are not inherited by subclasses of that class. Only members of a class that are declared protected or public are inherited by subclasses declared in a package other than the one in which the class is declared. The answer is No. They do not.
