@@ -1,0 +1,5 @@
+Chapter No 8 Practice Question 3
+
+ Q. What is the difference between protected and private members?
+Answer:
+Private members are accessible within the same class in which they are declared. Protected members are accessible within the same class and within the derived/sub/child class. Private members can also be accessed through the friend function. Protected members cannot be accessed through the friend function.
