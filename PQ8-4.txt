@@ -1,0 +1,47 @@
+Chapter No 8 Practice Question 4
+
+Q.
+Consider the following class definitions:
+
+class livingbeing
+{
+     char specification[20];
+     int averageage;
+     public:
+            void read();
+void show();
+    
+ };
+class ape: private livingbeing
+{
+     int no_of_organs, no_of_bones;
+protected:
+     int iq_level;
+public:
+  void readape();
+void showape();
+};
+ 
+class human:public ape
+{
+     char race[20];
+     char habitation[30];
+     public:
+     void readhuman();
+     void showhuman();
+};
+By using the preceding class definitions, answer the following questions:
+
+1.Name the members, which can be accessed from the member functions of class human.
+Answer:       race[20]; habitation[30];  iq_level;  readape();
+ showape();
+2. Name the members, which can be accessed by an object of class ape.
+Answer: An object of class ape can  access its own members
+
+3. Name the members, which can be accessed by an object of class human.
+Answer:
+	iq_level;  readape(); showape();
+
+
+ 
+
