@@ -1,0 +1,11 @@
+CHAPTER NO 7 PRACTICE QUESTION 2
+Q. Identify functions that you are required to code for the existing employee class to implement the following requirements:
+•	Display all employee records
+•	Display an employee detail based on employee code
+•	Display employee names based on department name
+
+Answer:
+void disEmployee();
+void disEmployee(int EmpCode); 
+void disEmployee(char[]);
+
