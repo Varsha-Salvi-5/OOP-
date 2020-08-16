@@ -1,0 +1,17 @@
+CHAPTER NO 7 PRACTICE QUESTION 1
+
+Q. State which of the following sets of functions are overloaded:
+•	void add(int, int);
+void add(float, float);
+•	void display(int, char);
+int display(int, char);
+•	int get(int);
+int get(int, int);
+•	int square(int);
+float square(float);
+
+Answer:
+
+int get(int);
+int get(int, int);
+
